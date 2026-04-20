@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Gym Hurghada | Private Sanctuary</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800;900&family=Playfair+Display:ital,wght@1,500;1,700&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="/src/style.css">
+  </head>
+  <body class="bg-grain">
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="max-w-7xl navbar-container">
+        <a href="#" class="footer-logo-flex" style="text-decoration: none; color: white; display: flex; align-items: center; gap: 0.75rem;">
+          <div class="logo-icon">
+            <i data-lucide="zap" class="logo-inner" style="width: 20px; height: 20px;"></i>
+          </div>
+          <span style="font-family: var(--font-display); font-weight: 900; font-size: 1.5rem; text-transform: uppercase;">Dynamic<span style="color: var(--color-brand-red);">Gym</span></span>
+        </a>
+
+        <div class="nav-links">
+          <a href="#" class="nav-link">Home</a>
+          <a href="#why-us" class="nav-link">Philosophy</a>
+          <a href="#memberships" class="nav-link">Memberships</a>
+          <a href="#schedule" class="nav-link">Schedule</a>
+          <a href="#trainers" class="nav-link">Trainers</a>
+          <a href="#booking" class="btn-premium" style="padding: 0.75rem 1.5rem; font-size: 10px;">Book Session</a>
+        </div>
+
+        <button id="menu-btn" class="mobile-menu-btn">
+          <i data-lucide="menu" style="width: 28px; height: 28px;"></i>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div id="mobile-menu" class="mobile-menu-overlay">
+      <button id="close-menu" class="close-menu-btn">
+        <i data-lucide="x" style="width: 32px; height: 32px;"></i>
+      </button>
+      <a href="#" class="mobile-nav-link">Home</a>
+      <a href="#why-us" class="mobile-nav-link">Philosophy</a>
+      <a href="#memberships" class="mobile-nav-link">Memberships</a>
+      <a href="#schedule" class="mobile-nav-link">Schedule</a>
+      <a href="#trainers" class="mobile-nav-link">Trainers</a>
+      <a href="#booking" class="btn-premium" style="width: 200px; text-align: center;">Book Session</a>
+    </div>
+
+    <!-- Hero -->
+    <section class="hero bg-grain">
+      <div class="hero-bg">
+        <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&q=80&w=2670" alt="Gym" class="hero-img">
+        <div class="hero-overlay-bottom"></div>
+        <div class="hero-overlay-side"></div>
+      </div>
+
+      <div class="max-w-7xl hero-content">
+        <span class="reveal section-label">Premier Fitness Hub | Hurghada</span>
+        <h1 class="reveal title-massive">
+          Forge Your <br>
+          Legacy In <br>
+          <span style="color: var(--color-brand-red); font-style: italic;">Steel</span>
+        </h1>
+        <p class="reveal hero-desc">
+          A sanctuary for high performance. World-class equipment. Unmatched results.
+        </p>
+        <div class="reveal hero-actions">
+          <a href="#booking" class="btn-premium">Start Now <i data-lucide="arrow-right" style="width: 16px; height: 16px; margin-left: 0.75rem;"></i></a>
+          <a href="#memberships" class="btn-outline">The Plans</a>
+        </div>
+      </div>
+
+      <div style="position: absolute; bottom: 3rem; left: 3rem;" class="reveal hidden md:block">
+        <div style="padding: 1.25rem; border-left: 2px solid var(--color-brand-red); background-color: rgba(10, 10, 10, 0.8); backdrop-filter: blur(8px);">
+          <p style="font-size: 10px; color: var(--color-brand-red); text-transform: uppercase; letter-spacing: 0.4em; font-weight: 900; margin-bottom: 0.5rem;">Latest Upgrade</p>
+          <p style="font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em;">New Olympic Lifting Zone Now Open</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quote -->
+    <section class="quote-section">
+      <div class="max-w-7xl reveal">
+        <i data-lucide="quote" class="quote-icon" style="width: 56px; height: 56px;"></i>
+        <h2 class="quote-text">"Your only competition is the version of yourself you left at the door."</h2>
+        <div class="quote-footer">
+          <div class="quote-line"></div>
+          <span class="quote-brand">Dynamic Gym Hurghada</span>
+          <div class="quote-line"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section id="why-us" class="section-padding bg-grain">
+      <div class="max-w-7xl">
+        <div class="features-grid">
+          <div class="feature-card reveal">
+            <i data-lucide="dumbbell" style="color: var(--color-brand-red); width: 40px; height: 40px; margin-bottom: 3rem;"></i>
+            <h3>Mechanical Precision</h3>
+            <p>Industrial-grade equipment curated for maximum muscle engagement and stimulus.</p>
+          </div>
+          <div class="feature-card reveal" style="transition-delay: 0.2s;">
+            <i data-lucide="users" style="color: var(--color-brand-red); width: 40px; height: 40px; margin-bottom: 3rem;"></i>
+            <h3>Elite Mentorship</h3>
+            <p>Specialists dedicated to the science of your physical transformation and safety.</p>
+          </div>
+          <div class="feature-card reveal" style="transition-delay: 0.4s;">
+            <i data-lucide="zap" style="color: var(--color-brand-red); width: 40px; height: 40px; margin-bottom: 3rem;"></i>
+            <h3>Results Culture</h3>
+            <p>An environment intentionally designed to eliminate noise and foster absolute focus.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Memberships -->
+    <section id="memberships" class="section-padding" style="background-color: black; border-top: 1px solid rgba(255, 255, 255, 0.02); border-bottom: 1px solid rgba(255, 255, 255, 0.02);">
+      <div class="max-w-7xl">
+        <div class="reveal memberships-header">
+          <span class="section-label">Memberships</span>
+          <h2 style="font-size: clamp(3rem, 8vw, 6rem); font-weight: 900; margin-bottom: 2.5rem;">The <span style="color: var(--color-brand-red);">Forge</span></h2>
+          <p style="color: #6b7280; font-size: 1.125rem; text-transform: uppercase; letter-spacing: 0.1em;">Transparent commitment. Transformative results.</p>
+        </div>
+
+        <div class="memberships-grid">
+          <!-- Focus -->
+          <div class="plan-card reveal" style="--mouse-x: 50%; --mouse-y: 50%;">
+            <h3 class="plan-name">Focus</h3>
+            <div class="plan-price-container">
+              <span class="plan-currency">EGP</span>
+              <span class="plan-price">1,200</span>
+              <div class="plan-period">/ Month</div>
+            </div>
+            <ul class="plan-features">
+              <li><i data-lucide="check" class="plan-check" style="width: 14px; height: 14px;"></i> Full Facility Access</li>
+              <li><i data-lucide="check" class="plan-check" style="width: 14px; height: 14px;"></i> Locker Room Choice</li>
+              <li><i data-lucide="check" class="plan-check" style="width: 14px; height: 14px;"></i> Initial Body Scan</li>
+            </ul>
+            <a href="#booking" class="btn-premium">Initiate Membership</a>
+          </div>
+
+          <!-- Performance -->
+          <div class="plan-card reveal popular" style="transition-delay: 0.1s; --mouse-x: 50%; --mouse-y: 50%;">
+            <h3 class="plan-name">Performance</h3>
+            <div class="plan-price-container">
+              <span class="plan-currency">EGP</span>
+              <span class="plan-price">3,000</span>
+              <div class="plan-period">/ Quarter</div>
+            </div>
+            <ul class="plan-features">
+              <li><i data-lucide="check" class="plan-check" style="width: 14px; height: 14px;"></i> Priority Class Intake</li>
+              <li><i data-lucide="check" class="plan-check" style="width: 14px; height: 14px;"></i> Nutrition Blueprint</li>
+              <li><i data-lucide="check" class="plan-check" style="width: 14px; height: 14px;"></i> 2x Guest Sessions</li>
+            </ul>
+            <a href="#booking" class="btn-premium">Initiate Membership</a>
+          </div>
+
+          <!-- Mastery -->
+          <div class="plan-card reveal" style="transition-delay: 0.2s; --mouse-x: 50%; --mouse-y: 50%;">
+            <h3 class="plan-name">Mastery</h3>
+            <div class="plan-price-container">
+              <span class="plan-currency">EGP</span>
+              <span class="plan-price">5,400</span>
+              <div class="plan-period">/ Bi-Annual</div>
+            </div>
+            <ul class="plan-features">
+              <li><i data-lucide="check" class="plan-check" style="width: 14px; height: 14px;"></i> V.I.P. Personal Locker</li>
+              <li><i data-lucide="check" class="plan-check" style="width: 14px; height: 14px;"></i> Annual Performance Plan</li>
+              <li><i data-lucide="check" class="plan-check" style="width: 14px; height: 14px;"></i> Unlimited Hydration</li>
+            </ul>
+            <a href="#booking" class="btn-premium">Initiate Membership</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Schedule -->
+    <section id="schedule" class="section-padding bg-grain">
+      <div class="max-w-7xl">
+        <div class="schedule-booking-flex">
+          <div class="schedule-container reveal">
+            <span class="section-label">Tactical Schedule</span>
+            <h2 style="font-size: clamp(2.5rem, 6vw, 4.5rem); font-weight: 900; margin-bottom: 4rem;">Weekly <span style="color: var(--color-brand-red);">Pulse</span></h2>
+            <div class="table-wrapper">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Time</th>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>08:00 AM</td>
+                    <td>Cardio Blitz</td>
+                    <td>Yoga</td>
+                    <td>Cardio Blitz</td>
+                    <td>Yoga</td>
+                    <td>Crossfit</td>
+                    <td>Full Body</td>
+                  </tr>
+                  <tr>
+                    <td>11:00 AM</td>
+                    <td>Crossfit</td>
+                    <td>HIIT</td>
+                    <td>Crossfit</td>
+                    <td>HIIT</td>
+                    <td>Strength</td>
+                    <td>Yoga</td>
+                  </tr>
+                  <tr>
+                    <td>06:00 PM</td>
+                    <td>Kickboxing</td>
+                    <td>Zumba</td>
+                    <td>Kickboxing</td>
+                    <td>Zumba</td>
+                    <td>Boxing</td>
+                    <td>Mobility</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div id="booking" class="booking-container reveal" style="transition-delay: 0.3s;">
+            <div class="booking-box">
+              <h3 class="booking-title">Secure Your <br> <span style="color: var(--color-brand-red);">Session</span></h3>
+              <form action="https://formspree.io/maqllwyk" method="POST">
+                <div class="form-group">
+                  <label class="form-label">Name</label>
+                  <input type="text" name="name" placeholder="Your Identity" required class="form-input">
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Email</label>
+                  <input type="email" name="email" placeholder="Direct Contact" required class="form-input">
+                </div>
+                <div class="form-grid">
+                  <div class="form-group">
+                    <label class="form-label">The Drill</label>
+                    <select name="class" required class="form-input" style="font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em;">
+                      <option value="">Select Class</option>
+                      <option value="Cardio Blitz">Cardio Blitz</option>
+                      <option value="Yoga">Yoga</option>
+                      <option value="Crossfit">Crossfit</option>
+                      <option value="HIIT">HIIT</option>
+                      <option value="Strength">Strength</option>
+                      <option value="Kickboxing">Kickboxing</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label class="form-label">Date</label>
+                    <input type="date" name="date" required class="form-input">
+                  </div>
+                </div>
+                <button type="submit" class="btn-premium" style="width: 100%; margin-top: 1.5rem;">Confirm Booking</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trainers -->
+    <section id="trainers" class="section-padding bg-black">
+      <div class="max-w-7xl">
+        <div class="reveal" style="margin-bottom: 6rem;">
+          <span class="section-label">Expert Mentorship</span>
+          <h2 style="font-size: clamp(2.5rem, 6vw, 4.5rem); font-weight: 900;">Elite <span style="color: var(--color-brand-red);">Curators</span></h2>
+        </div>
+        <div class="trainers-grid">
+          <div class="trainer-card reveal">
+            <div class="trainer-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1567013127542-490d757e51ca?auto=format&fit=crop&q=80&w=1000" alt="Beast" class="trainer-img">
+            </div>
+            <h3 class="trainer-name">The Beast</h3>
+            <p class="trainer-role">Strength Specialist</p>
+          </div>
+          <div class="trainer-card reveal" style="transition-delay: 0.2s;">
+            <div class="trainer-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1518611012118-29a8d9a5a248?auto=format&fit=crop&q=80&w=1000" alt="Gohary" class="trainer-img">
+            </div>
+            <h3 class="trainer-name">El-Gohary</h3>
+            <p class="trainer-role">Mobility Specialist</p>
+          </div>
+          <div class="trainer-card reveal" style="transition-delay: 0.4s;">
+            <div class="trainer-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?auto=format&fit=crop&q=80&w=1000" alt="Rossi" class="trainer-img">
+            </div>
+            <h3 class="trainer-name">Rossi</h3>
+            <p class="trainer-role">Performance Specialist</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section-padding bg-grain">
+      <div class="max-w-7xl">
+        <div class="testimonial-container">
+          <span class="section-label">Success Narratives</span>
+          <div class="testimonial-flex reveal">
+            <div class="testimonial-content">
+              <p id="test-text" class="testimonial-text">"The best equipment in the Red Sea. Dynamic Gym isn't just a place to workout; it's where I found my true potential. The atmosphere is unmatched."</p>
+              <div>
+                <h4 id="test-author" class="testimonial-author">Omar Khaled</h4>
+                <p id="test-role" class="testimonial-role">Athlete</p>
+              </div>
+            </div>
+            <div class="testimonial-nav">
+              <button id="test-prev" class="nav-btn"><i data-lucide="chevron-left"></i></button>
+              <button id="test-next" class="nav-btn"><i data-lucide="chevron-right"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Location -->
+    <section class="section-padding bg-black" style="border-top: 1px solid rgba(255, 255, 255, 0.02);">
+      <div class="max-w-7xl">
+        <div class="location-flex">
+          <div class="location-info reveal">
+            <span class="section-label">Contact Coordinates</span>
+            <h2 style="font-size: clamp(3rem, 7vw, 4.5rem); font-weight: 900; margin-bottom: 6rem;">Find The <br> <span style="color: var(--color-brand-red);">Stronghold</span></h2>
+            <div class="coord-item">
+              <div class="coord-icon-box"><i data-lucide="map-pin" style="width: 18px; height: 18px;"></i></div>
+              <div>
+                <p class="coord-label">Location</p>
+                <p class="coord-value">La Prestigia Plaza, Sheraton Road, Hurghada, Egypt.</p>
+              </div>
+            </div>
+            <div class="coord-item">
+              <div class="coord-icon-box"><i data-lucide="clock" style="width: 18px; height: 18px;"></i></div>
+              <div>
+                <p class="coord-label">Operations</p>
+                <p class="coord-value">Daily 06:00 - 23:00</p>
+              </div>
+            </div>
+          </div>
+          <div class="location-map reveal" style="transition-delay: 0.3s;">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14392.353346571439!2d33.82998394474771!3d27.21833596531336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14bd140f99478f79%3A0x6b445e0d49479361!2sSheraton%20Rd%2C%20Hurghada!5e0!3m2!1sen!2seg!4v1713567890000!5m2!1sen!2seg" 
+                class="map-iframe" allowfullscreen loading="lazy" title="Location Map"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="max-w-7xl">
+        <div class="footer-top">
+          <div class="footer-logo-area">
+            <div class="footer-logo-flex" style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 2rem;">
+              <div class="logo-icon">
+                <i data-lucide="zap" class="logo-inner" style="width: 20px; height: 20px;"></i>
+              </div>
+              <span style="font-family: var(--font-display); font-weight: 900; font-size: 1.5rem; text-transform: uppercase;">Dynamic<span style="color: var(--color-brand-red);">Gym</span></span>
+            </div>
+            <p class="footer-desc">The sanctuary for high performance in Hurghada. Results-driven culture. Elite mentorship. Exclusive community.</p>
+          </div>
+          <div class="footer-nav-grid">
+            <div>
+              <h4 class="footer-nav-title">Navigation</h4>
+              <div class="footer-links">
+                <a href="#" class="footer-link">Home</a>
+                <a href="#why-us" class="footer-link">Philosophy</a>
+                <a href="#schedule" class="footer-link">Schedule</a>
+              </div>
+            </div>
+            <div>
+              <h4 class="footer-nav-title">Connect</h4>
+              <div class="footer-links">
+                <a href="#" class="footer-link">Instagram</a>
+                <a href="#" class="footer-link">WhatsApp</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          © 2026 Dynamic Gym Hurghada. Engineered for Performance.
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="/src/script.js"></script>
+    <script>
+      // Initialize Lucide Icons
+      lucide.createIcons();
+    </script>
+  </body>
+</html>
