@@ -242,7 +242,7 @@ h1, h2, h3, h4, h5, h6 {
 .hero-desc {
   font-size: clamp(1rem, 2vw, 1.25rem);
   color: #9ca3af;
-  margin-bottom: 3.5rem;
+  margin-bottom: 1.5rem;
   max-width: 32rem;
   line-height: 1.6;
   text-transform: uppercase;
