@@ -312,6 +312,7 @@ h1, h2, h3, h4, h5, h6 {
   display: grid;
   grid-template-columns: 1fr;
   gap: 6rem;
+  paddgin-top: 12rem;
 }
 
 @media (min-width: 768px) {
@@ -325,7 +326,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1.5rem;
   font-weight: 900;
   letter-spacing: -0.02em;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .feature-card p {
