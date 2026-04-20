@@ -144,6 +144,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Buttons */
+.hero-actions { 
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
 .btn-premium {
   display: inline-flex;
   align-items: center;
@@ -237,7 +243,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .hero-content {
   display: flex;
-  felx-direciotion: column
+  felx-direciotion: column;
   position: relative;
   gab: 20px;
   max-width: 700px;
@@ -246,15 +252,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero-desc {
-  font-size: 1.2rem;
+  font-size: clamp(3rem,8vw,5rem);
   color: #9ca3af;
   margin-bottom: 3.5rem;
   opacity: 0.9;
   max-width: 500px;
-  line-height: 1.6;
+  line-height: 1.1;
   text-transform: uppercase;
   letter-spacing: 0.2em;
   font-weight: 500;
+  margin: 0;
 }
 
 .hero-actions {
