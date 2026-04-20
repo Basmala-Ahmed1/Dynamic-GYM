@@ -194,11 +194,11 @@ h1, h2, h3, h4, h5, h6 {
 /* Hero */
 .hero {
   position: relative;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   background-color: black;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .hero-bg {
@@ -257,13 +257,15 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Quote Section */
 .quote-section {
-  padding-top: 3rem;
+  padding-top: 12rem;
+  position: relative;
+  top: 100px;
   padding-bottom: 3rem;
   background-color: black;
   border-top: 1px solid rgba(255, 255, 255, 0.02);
   border-bottom: 1px solid rgba(255, 255, 255, 0.02);
   text-align: center;
-  margin-top: 150px;
+  margin-top: 0;
 }
 
 .quote-icon {
