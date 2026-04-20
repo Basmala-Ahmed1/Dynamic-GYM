@@ -268,18 +268,18 @@ h1, h2, h3, h4, h5, h6 {
 
 .quote-icon {
   color: var(--color-brand-red);
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
   opacity: 0.4;
 }
 
 .quote-text {
   font-family: var(--font-quote);
   font-style: italic;
-  font-size: clamp(2rem, 5vw, 4rem);
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
   font-weight: 500;
   line-height: 1.2;
   max-width: 64rem;
-  margin: 0 auto 4rem;
+  margin: 0 auto 1.5rem;
 }
 
 .quote-footer {
