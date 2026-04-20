@@ -195,8 +195,10 @@ h1, h2, h3, h4, h5, h6 {
   height: 100vh;
   display: flex;
   align-items: center;
+  padding: 0 10%;
   background-color: black;
   overflow: hidden;
+  color: white;
 }
 
 .hero-bg {
@@ -225,16 +227,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero-content {
+  display: flex;
+  felx-direciotion: column
   position: relative;
+  gab: 20px;
+  max-width: 700px;
   z-index: 10;
   padding-top: 8rem;
 }
 
 .hero-desc {
-  font-size: clamp(1rem, 2vw, 1.25rem);
+  font-size: 1.2rem;
   color: #9ca3af;
   margin-bottom: 3.5rem;
-  max-width: 32rem;
+  opacity: 0.9;
+  max-width: 500px;
   line-height: 1.6;
   text-transform: uppercase;
   letter-spacing: 0.2em;
