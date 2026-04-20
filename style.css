@@ -102,7 +102,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 10px;
   justify-content: space-between;
   align-items: center;
-  padding: 1.25rem 0;
+  padding: 1.25rem;
 }
 
 .nav-links {
@@ -257,12 +257,13 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Quote Section */
 .quote-section {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   background-color: black;
   border-top: 1px solid rgba(255, 255, 255, 0.02);
   border-bottom: 1px solid rgba(255, 255, 255, 0.02);
   text-align: center;
+  margin-top: 2rem;
 }
 
 .quote-icon {
