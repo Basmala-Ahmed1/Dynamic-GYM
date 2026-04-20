@@ -266,6 +266,7 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 1px solid rgba(255, 255, 255, 0.02);
   text-align: center;
   margin-top: 0;
+  top: 100px;
 }
 
 .quote-icon {
